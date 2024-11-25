@@ -1,0 +1,268 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+        to top,
+        #f3ede7 0%,
+        #f3ede7 26%,
+        #faf8f6 26%,
+        #faf8f6 100%
+    ); 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0;
+    margin: 3% 0;
+    min-width: 480px;    
+    color:  #172339;
+    background: linear-gradient(
+        to top,
+        #f3ede7 0%,
+        #f3ede7 26%,
+        #faf8f6 26%,
+        #faf8f6 100%
+    ); 
+}
+
+header{
+    color:  #172339;
+    display: inline-flex;
+    font-family: "Epilogue", serif;
+    padding: 0%;
+    justify-content: space-between;
+}
+
+h1{
+    color: #172339;
+    font-size-adjust: 0.55;
+    font-family: "Epilogue", serif;
+    margin: 0;
+    align-self: center;
+}
+    
+.header-button{
+    color:  #172339;
+    background-color: #faf8f6;
+    border: solid 0.5px;
+    border-radius: 7px;
+    margin: 0px;
+    padding: 17px 25px;
+    text-align: center;
+    font-family: "Epilogue", serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-size-adjust: 0.55;
+}
+
+.page-middle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.solution-text-image{
+    background-color: #faf8f6;
+    padding: 6% 0;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 80vh;
+}
+
+.solution-text{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-start;
+}
+
+.curved-line-1{
+    display: flex;
+    width: 20svi;
+    height: 2svi;
+    margin-top: 4svi;
+    margin-left: 21svi;
+    position: relative;
+    z-index: 1;
+}
+
+h2{
+    position: absolute;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    font-size: 5lvi;
+    width: 50%;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+h3{
+    position: relative;
+    color: #49566d;
+    font-family: "Epilogue", serif;
+    line-height: 150%;
+    font-size: 18px;
+    font-weight: 400;
+    width: 50%;
+    padding: 25% 0 5% 0;  
+} 
+
+.central-button{
+    background-color: #172339;
+    color: #faf8f6;
+    border: solid 0.5px;
+    border-radius: 7px;
+    margin: 0px;
+    padding: 17px 25px;
+    text-align: center;
+    font-family: "Epilogue", serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-size-adjust: 0.55;
+}
+
+.phone-image{
+    position: absolute;
+    display: flex;
+    width: 25%;
+    height:auto;
+    min-width: 50px;
+    z-index: 0;
+    left: 45%;
+}
+
+img{
+    display: flex;
+    width: 100%;
+}
+
+.statistics{
+    color:  #172339;
+    max-width: 23%;
+    padding: 13% 5%;
+    letter-spacing: 2px;
+}
+
+.statistics-numbers{
+    font-family: "Epilogue", serif;
+    font-weight: 700;
+    font-size: 3.5lvi;
+}
+
+.statistics-text{
+    color: #49566d;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    font-size: 1.2lvi;
+    padding: 0 0 58% 0;
+}
+
+.page-bottom{
+    background-color: #172339;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height:37svi;
+    margin-bottom: 7%;
+}
+
+.man-image{
+    position: absolute;
+    left: 20svi;
+    width: 25svi;
+    height: auto;
+    z-index: 1;
+}
+
+.blur-pattern{
+    position: absolute;
+    left: 13svi;
+    height: 30svi;
+    width: 35svi;
+    z-index: 0;
+}
+
+.curved-line-2{
+    position: absolute;
+    left: 47svi;
+    width: 4svi;
+    height: 28svi;
+    z-index: 1;
+}
+
+.mans-header-text{
+    position: relative;
+    color: #faf8f6;
+    font-family: "Epilogue", serif;
+    font-size: 3.5lvi;
+    font-weight: 400;
+    width: 35%;
+    padding: 5svi 0 0 45svi;
+
+}
+
+.mans-text{
+    position: relative;
+    color: #f3ede7;
+    font-family: "Epilogue", serif;
+    font-size: 1.4lvi;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    width: 35%;
+    line-height: 2.5svi;
+    padding: 3.5svi 0 0 45svi;
+}
+
+.mans-name{
+    position: relative;
+    color: #faf8f6;
+    font-family: "Epilogue", serif;
+    font-size: 1.5lvi;
+    font-weight: 600;
+    width: 35%;
+    padding: 3.5svi 0 0 45svi;
+}
+
+.mans-signature{
+    position: relative;
+    color: #f3ede7;
+    font-family: "Epilogue", serif;
+    font-size: 1.4lvi;
+    font-weight: 200;
+    letter-spacing: 2px;
+    width: 35%;
+    padding: 0.7svi 0 6svi 45svi;
+}
+
+footer{
+    display: inline-flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.copyright-text{
+    color: #49566d;
+    font-family: "Epilogue", serif;
+    font-size: 1lvi;
+}
+
+.bottom-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 8svi;
+}
+
+.epilogue-font {
+    font-family: "Epilogue", serif;
+    font-optical-sizing: auto;
+    font-weight: 400 700;
+    font-style: normal;
+  }
